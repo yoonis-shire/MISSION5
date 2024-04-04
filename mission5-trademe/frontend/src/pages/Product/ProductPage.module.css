@@ -1,0 +1,31 @@
+.productPage {
+    background-color: #F5F5F7;
+    height: 1800px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.bidBtn {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+
+.bidBtn button {
+    background-color: white;
+    color: #317AC7;
+    border: 1px solid #317AC7;
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    width: 324px;
+    height: 47px;
+    padding: 10px 50px 10px 50px;
+}
+
+.bidBtn button:hover {
+    color: #83AFDD;
+    cursor: pointer;
+}

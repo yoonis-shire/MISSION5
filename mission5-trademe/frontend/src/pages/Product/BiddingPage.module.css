@@ -1,0 +1,8 @@
+.BiddingPage {
+    background-color: #F5F5F7;
+    height: 1600px;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

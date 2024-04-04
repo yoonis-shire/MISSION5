@@ -1,0 +1,70 @@
+.Foot{
+    margin-top: auto;
+    font-family: Helvetica;
+}
+
+
+.Row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-right: 15px; 
+}
+
+.hr1 {
+    border: none;
+    height: 2px;
+    width: 90vw;
+    color: #E0E0E0;
+    background-color: #E0E0E0 
+}
+
+.TradeMe{
+    display: inline-block;
+    width: 200px;
+    height: 33.39px;
+    cursor: pointer;
+}
+
+.item{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.Row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-right: 15px; 
+    padding-bottom: 60px;
+
+}
+
+.Pair{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-right: 15px; 
+
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.D {
+    margin-bottom: 10px;
+}
+
+.facebook, .twitter, .D {
+    cursor: pointer;
+}

@@ -1,0 +1,212 @@
+.header * {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+.topHeader {
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    background-color: #F5F5F5;
+    color: #64605D;
+    font-family: Helvetica;
+    font-size: 14px;
+    width: 100vw;
+    height: 37px;
+}
+
+.topHeader li {
+    position: relative;
+    left: 32%;
+    padding-top: 10px;
+}
+
+.whiteNav {
+    position: absolute;
+    top: 37px;
+    width: 100vw;
+    height: 85px;
+    background-color: white;
+}
+
+.whiteNavLeft input {
+    position: absolute;
+    top: 26.5px;
+    left: 448px;
+    background-color: white;
+    height: 32px;
+    padding-left: 10px;
+    border: none;
+}
+
+.whiteNavLeft input:focus {
+    outline: none;
+}
+
+.browse {
+    position: absolute;
+    top: 34.5px;
+    left: 288px;
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #64605D;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+}
+
+.searchIcon {
+    background-color: white;
+    position: absolute;
+    top: 34px;
+    left: 417.5px;
+    width: 17px;
+    cursor: pointer;
+}
+
+.whiteArrow {
+    position: absolute;
+    top: 40.2px;
+    left: 352.41px;
+    color: #64605D;
+    background-color: white;
+    cursor: pointer;
+}
+
+.vl {
+    position: absolute;
+    top: 29px;
+    left: 394px;
+    border-left: 1px solid #64605D;
+    height: 27px;
+}
+
+.whiteNavRight img {
+    position: relative;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.whiteNavRight li {
+    background-color: white;
+    cursor: pointer;
+}
+
+.whiteNavRight ul {
+    position: absolute;
+    right: 40px;
+    top: 26.5px;
+    list-style-type: none;
+    display: flex;
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #64605D;
+    background-color: white;
+    gap: 20px;
+}
+
+.logo {
+    position: absolute;
+    left: 40px;
+    top: 25.8px;
+    width: 209px;
+    height: 33.39px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.redNav {
+    display: flex;
+    position: absolute;
+    top: 122px;
+    width: 100vw;
+    height: 52px;
+    background-color: #C94745;
+    font-family: Helvetica;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.redNavLeft ul {
+    list-style-type: none;
+    display: flex;
+    gap: 19px;
+    background-color: #C94745;
+}
+
+.redNav ul li {
+    background-color: #C94745;
+    cursor: pointer;
+}
+
+.redNav img {
+    position: relative;
+    background-color: #C94745;
+    padding-left: 15px;
+    bottom: 2px;
+    cursor: pointer;
+}
+
+.redNavLeft {
+    position: absolute;
+    padding-top: 10px;
+    left: 40px;
+    top: 10px;
+    background-color: #C94745;
+}
+
+.redNavRight {
+    position: absolute;
+    background-color: #C94745;
+    padding-top: 10px;
+    right: 60px;
+    top: 10px;
+}
+
+.redNavRight ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    background-color: #C94745;
+}
+
+.redNavRight ul li {
+    cursor: pointer;
+}
+
+.redNavRight img {
+    position: relative;
+    bottom: 10px;
+    left: 30px;
+    background-color: #C94745;
+    height: 32px;
+    color: white;
+}
+
+.homeMarketPlace {
+    position: absolute;
+    top: 174px;
+    height: 50px;
+    width: 100vw;
+    background-color: white;
+}
+
+.homeMarketPlace p {
+    position: relative;
+    width: 130px;
+    left: 40px;
+    top: 16.5px;
+    font-family: Helvetica;
+    font-size: 14px;
+    color: #317AC7;
+    background-color: white;
+    cursor: pointer;
+}

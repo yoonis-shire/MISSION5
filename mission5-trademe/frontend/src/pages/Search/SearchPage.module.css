@@ -1,0 +1,7 @@
+.searchPage {
+    background-color: #F5F5F7;
+    height: 1800px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

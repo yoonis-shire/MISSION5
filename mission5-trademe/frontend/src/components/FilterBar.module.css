@@ -1,0 +1,283 @@
+.filterBox {
+    position: absolute;
+    left: 39px;
+    top: 351px;
+    background-color: white;
+    border-radius: 20px;
+    width: 323px;
+    height: 745px;
+}
+
+.filterBox * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.filters {
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price {
+    background-color: white;
+    position: absolute;
+    top: 74px;
+    left: 20px;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+.hr1 {
+    position: relative;
+    top: 105px;
+    left: 20px;
+}
+
+.priceFilters {
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    top: 118.5px;
+    left: 20px;
+    font-family: Helvetica;
+    font-size: 16px;
+    list-style-type: none;
+    color: black;
+    opacity: 30%;
+}
+
+.priceFilters input {
+    width: 60px;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 2.5px;
+    border: none;
+    padding: 5px 0px 5px 5px;
+}
+
+.priceFilters input:focus {
+    outline:none;
+}
+
+.min {
+    border: 1.5px solid;
+    border-radius: 20px;
+    padding: 5px 10px 5px 15px;
+}
+
+.max {
+    border: 1.5px solid;
+    border-radius: 20px;
+    padding: 5px 10px 5px 15px;
+}
+
+.go {
+    position: absolute;
+    top: 118.5px;
+    left: 246px;
+    border: 1.5px solid;
+    border-radius: 20px;
+    padding: 12px 13.5px 10px 13.5px;
+    font-family: Helvetica;
+    font-size: 16px;
+    color: black;
+    opacity: 30%;
+}
+
+.go:hover {
+    background-color: black;
+    opacity: 100%;
+    cursor: pointer;
+    color: white;
+}
+
+.regions {
+    background-color: white;
+    position: absolute;
+    top: 182.5px;
+    left: 20px;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+.selectAll {
+    background-color: white;
+    position: absolute;
+    top: 182.5px;
+    right: 15px;
+    padding: 0px 10px 0px 10px;
+    font-family: Helvetica;
+    font-size: 16px; 
+    text-decoration: underline;
+}
+
+.hr2 {
+    position: relative;
+    top: 202.5px;
+    left: 20px;
+}
+
+.regionRadio {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 208.5px;
+    left: 20px;
+    gap: 2px;
+    background-color: white;
+}
+
+.conditionRadio {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 356px;
+    left: 20px;
+    gap: 5px;
+    background-color: white;
+}
+
+.statusRadio {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 462px;
+    left: 20px;
+    gap: 5px;
+    background-color: white;
+}
+
+.sellerRadio {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 564px;
+    left: 20px;
+    gap: 5px;
+    background-color: white;
+}
+
+.shippingRadio {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 666.5px;
+    left: 20px;
+    gap: 5px;
+    background-color: white;
+}
+
+.circle {
+    height: 22px;
+    width: 22px;
+    background-color: white;
+    border: #44413D 1px solid;
+    border-radius: 50%;
+    position: absolute;
+    top: -3px;
+    left: 0;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 6.5px;
+    cursor: pointer;
+    background-color: white;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+  
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+  
+.container input:checked ~ .circle {
+    background-color: black;
+}
+
+.viewAll {
+    background-color: white;
+    position: absolute;
+    left: 20px;
+    top: 289px;
+    left: 130px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.condition {
+    background-color: white;
+    position: absolute;
+    top: 328px;
+    left: 20px;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+.status {
+    background-color: white;
+    position: absolute;
+    top: 436px;
+    left: 20px;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+.seller {
+    background-color: white;
+    position: absolute;
+    top: 538px;
+    left: 20px;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+.shipping {
+    background-color: white;
+    position: absolute;
+    top: 640px;
+    left: 20px;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+.hr3 {
+    top: 348px;
+    left: 20px;
+}
+
+.hr4 {
+    top: 452px;
+    left: 20px;
+}
+
+.hr5 {
+    top: 552px;
+    left: 20px;
+}
+
+.hr6 {
+    top: 652px;
+    left: 20px;
+}
+
+hr {
+    position: relative;
+    border: solid black 1px;
+    width: 283.06px;
+    color: black;
+    opacity: 30%;
+}
